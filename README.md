@@ -7,9 +7,11 @@ asistente a eventos de Python Canarias como el PyDay.
 
 Requiere una Key de la API de telegram, a definir o bien 
 como variable de entorno o bien en un fichero `.env`, con
-el nombre `TELEGRAM_BOT_TOKEN'. Además, hay que configurar
+el nombre `TELEGRAM_BOT_TOKEN`. Además, hay que configurar
 de igual manera una variable `EVENT_TAG` para identificar
-el evento que se va a utilizar.
+el evento que se va a utilizar. Ahora mismo el valor por
+defecto es `pydaytf18`. Lo ideal seria cambiar este sistema
+por otro más dinámico.
 
 ### Ejecución
 

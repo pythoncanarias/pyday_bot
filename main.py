@@ -141,7 +141,7 @@ def help(bot, update):
     buff = ['Opciones:\n']
     for name in _kernel:
         buff.append('/{} - {}'.format(
-            name, 
+            name,
             _kernel[name].__doc__.strip()
             ))
     return True, '\n'.join(buff)
@@ -164,7 +164,7 @@ def no_entiendo(bot, update):
 
 if __name__ == '__main__':
     logging.info('Obteniendo informacion del evento')
-    E = Event(config('EVENT_TAG'))
+    E = Event(config('EVENT_TAG', default='pydaytf18'))
     logging.info('OK, evento cargado')
     updater = Updater(config("TELEGRAM_BOT_TOKEN"))
     logging.info('PtDayBot starts')
