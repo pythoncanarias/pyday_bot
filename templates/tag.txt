@@ -1,0 +1,6 @@
+Charlas etiquetdas bajo `$tag`:
+
+#for $talk in $talks
+- ${talk.name}. A las *${talk.start}* en sala *${talk.track.name}*
+#end for
+

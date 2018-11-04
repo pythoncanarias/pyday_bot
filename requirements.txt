@@ -1,0 +1,6 @@
+prettyconf
+pytest
+python-telegram-bot
+emoji
+requests
+cheetah3

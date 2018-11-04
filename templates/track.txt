@@ -1,0 +1,10 @@
+Tags dispobibles:
+
+#for $tag in $tags
+- ${tag}
+#end for
+
+Puede consultar las charlas con un determinado tag
+con:
+
+    /tag <tagname>

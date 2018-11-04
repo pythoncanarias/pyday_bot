@@ -1,0 +1,213 @@
+    {
+        "id": 1,
+        "name": "PyDay Tenerife 2018",
+        "active": true,
+        "start_date": "2018-11-17",
+        "short_description": "El evento anual de Python m\u00e1s importante que se celebra en Tenerife",
+        "url": "http://pythoncanarias.es/events/pydaytf18/",
+        "tracks": [
+            {
+                "track_id": 1,
+                "order": 10,
+                "name": "Tatooine",
+                "talks": [
+                    {
+                        "name": "Desarrolla tu primer m\u00f3dulo en ansible",
+                        "start": "11:00",
+                        "end": "11:50",
+                        "description": "Ansible es una navaja suiza contando con m\u00e1s 1800 m\u00f3dulos para hacer casi de todo, pero, \u00bf qu\u00e9 pasa si tenemos una necesidad espec\u00edfica que no est\u00e9 contemplada como m\u00f3dulo ? Puedes empezar a lanzar script a lo bestia sin respetar los principios de todo buen sistemas de gesti\u00f3n como por ejemplo, el principio de idempotencia, o puedes hacerlo bien. Si has decidido ir  por el camino de baldosas amarillas, te lo mostraremos como empezar.",
+                        "tags": [
+                            "devops-tools"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "Introducci\u00f3n a BDD con Python",
+                        "start": "12:15",
+                        "end": "13:05",
+                        "description": "BDD (Behavier-Driven Development) consiste  en una serie de t\u00e9cnicas para mejorar nuestra eficacia como equipo de desarrollo, orientadas a favorecer la comunicaci\u00f3n con el resto de la empresa y mejorar la descripci\u00f3n de los requerimientos . En esta charla veremos los principios de esta t\u00e9cnica, las librer\u00edas m\u00e1s usadas tanto en Python como en otros lenguajes, y veremos unos ejemplos con la librer\u00eda behave de Python.",
+                        "tags": [
+                            "devops-tools",
+                            "testing"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "Google Dialogflow: Rise of the Machines",
+                        "start": "13:10",
+                        "end": "14:00",
+                        "description": "\"La API de Google Dialogflow permite crear agentes interactivos, con integraci\u00f3n para los asistentes de voz como Google assistant, Alexa y Cortana, adem\u00e1s\r\nde las aplicaciones de mensajer\u00eda habituales: Telegram, Slack, Twitter, etc\r\n\r\nEn la charla se ver\u00e1 una aplicaci\u00f3n Flask para el Asistente de Google\"",
+                        "tags": [
+                            "devops-tools"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "Buscando asesinos en serie en EE.UU.",
+                        "start": "15:00",
+                        "end": "15:50",
+                        "description": "Con un dataset sobre asesinatos cometidos en Estados Unidos desde 1980 hasta 2014 buscar\u00e9 patrones entre asesinatos que puedan detectar cu\u00e1les pudieron se asesinos en serie bas\u00e1ndose en la cercan\u00eda entre los asesinatos, edad, raza, etc...",
+                        "tags": [
+                            "machine-learning"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "\"Cuenta lo que cuenta\", contando pollos con TensorFlow",
+                        "start": "15:55",
+                        "end": "16:45",
+                        "description": "Durante 40 minutos describiremos el proceso de generaci\u00f3n de un Dataset de entrenamiento y prueba  para entrenar una red neuronal que sea capaz de\u2026 Contar pollos!\r\n\r\nEn Edosoft, no buscamos los t\u00edpicos proyectos de altas, bajas y modificaciones, nos gusta abordar riesgos que nos obliguen a investigar y profundizar en nuevas tecnolog\u00edas. Hace poco nos entr\u00f3 un proyecto de esos, de los que no obliga a estar un conjunto de personas reunidas alrededor de una pizarra devan\u00e1ndose los sesos. Imposible no era una respuesta v\u00e1lida.\r\n\r\nEl reto era sencillo, \u00bfcu\u00e1ntos pollos hay en esta foto? Vale, contar es f\u00e1cil, pero \u00bfc\u00f3mo logramos el conjunto de entrenamiento? \u00bfEnviamos a nuestros Desarrolladores a una granja? \u00bfLos devops podr\u00e1n crear una playbook de ansible con facts para pollos?\r\n\r\nEn esta charla veremos c\u00f3mo solventamos este problema.",
+                        "tags": [
+                            "machine-learning"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "Migrando a microservicios, lo que pas\u00f3 a continuaci\u00f3n, te sorprender\u00e1",
+                        "start": "17:10",
+                        "end": "18:00",
+                        "description": "Disclaimer: No es clickbait. \u00bfAlguna vez has pensado en cambiar a una arquitectura de microservicios? En esta charla intentar\u00e9 explicar el arduo camino de adaptar toda tu infraestructura a servicios con un ejemplo pr\u00e1ctico (no, no ser\u00e1 el ejemplo de la tienda online). Los elementos y herramientas que har\u00e1n tu vida m\u00e1s simple, y terminaremos comentando si de verdad es necesario que tu backend sea reconstruido con servicios o no es necesario unirte a la \"moda\"",
+                        "tags": [
+                            "devops-tools",
+                            "microservices"
+                        ],
+                        "language": "ES"
+                    }
+                ]
+            },
+            {
+                "track_id": 2,
+                "order": 50,
+                "name": "Hoth",
+                "talks": [
+                    {
+                        "name": "EGI Notebooks: Jupyter como servicio",
+                        "start": "11:00",
+                        "end": "11:50",
+                        "description": "Jupyter permite crear y compartir documentos con texto, c\u00f3digo, ecuaciones, visualizaciones y texto explicativo desde un navegador web con una interfaz amigable. Su uso es cada vez m\u00e1s popular en todo tipo de disciplinas cient\u00edficas y de an\u00e1lisis de datos aunque no siempre los usuarios saben c\u00f3mo instalarlo y configurarlo. En EGI (una infraestructura europea de servicios de computaci\u00f3n para investigaci\u00f3n) estamos desarrollando un nuevo servicio basado en Jupyter llamado EGI Notebooks que permite a los usuarios ejecutar sus notebooks simplemente accediendo a la interfaz web, sin necesidad de instalar ni configurar el software en su m\u00e1quina local.  En esta charla presentar\u00e9 como usamos Kubernetes, Prometheus, JupyterHub y BinderHub para ofrecer este servicio junto con varias herramientas en python que integran el sistema con el resto de componentes de la infraestructura de EGI.",
+                        "tags": [
+                            "devops-tools"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "Deploying Python apps on Google Cloud Platform",
+                        "start": "12:15",
+                        "end": "13:05",
+                        "description": "We'll start with an introductory Google Cloud Platform (GCP) walk-through, with a brief overview of the different services it offers and the multiple ways developers can take advantage of those. The second half of the talk will be a live step-by-step demonstration on how to deploy a simple Python web application; leveraging the power of App Engine, Google's own approach to Platform-as-a-Service (PaaS), we'll witness how easy it is to horizontally scale our application to meet production demands",
+                        "tags": [
+                            "devops-tools"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "\u00bfQu\u00e9 es GraphQL y por qu\u00e9 se est\u00e1 hablando tanto de \u00e9l?",
+                        "start": "13:10",
+                        "end": "14:00",
+                        "description": "Durante la ponencia empezar\u00e9 aclarando algunos conceptos que rondan en torno a GraphQL y a c\u00f3mo esta nueva herramienta puede convivir con nuestros proyecto. Continuar\u00e9 dando una peque\u00f1a introducci\u00f3n viendo de d\u00f3nde viene y qu\u00e9 es necesario para poder implementarla en una API, para concluir mostrando un peque\u00f1o ejemplo, en live-demo, de lo que se puede conseguir introduciendo GraphQL en nuestros backends.",
+                        "tags": [
+                            "microservices"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "Python Magic",
+                        "start": "15:00",
+                        "end": "15:50",
+                        "description": "\"Desde anta\u00f1o se han asemejado diferentes artes oscuras y arcanas a los diferentes complejos procesos inform\u00e1ticos.\r\n\r\nEn esta charla nos enfocaremos en aprender realmente algunas Magias Pythonianas para manejar dicha complejidad y permitirnos hacer librer\u00edas Automagicas.\r\n\r\nLos principios de dicha charla se fundamentar\u00e1n en metaprogramaci\u00f3n con python y como desde ah\u00ed llevarnos al desarrollo de la Automagia. As\u00ed mismo, trataremos diferentes interfaces del lenguaje para el desarrollo de API limpias, tales como decoradores o magic methods.\r\n\r\nEntre las diferentes artes arcanas (m\u00e1s comunmente conocidos como Magic Methods) encontraremos el uso de operadores, conversiones de tipo, iteradores, manejadores de contexto y varias florituras m\u00e1s. Tras finalizar dicha sesi\u00f3n, habreis adquirido los conocimientos suficientes para empezar a desarrollar vuestra propia Magia Pythoniana.\"",
+                        "tags": [
+                            "devops-tools"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "Dataclasses en Python 3.7: Empieza a borrar c\u00f3digo",
+                        "start": "15:55",
+                        "end": "16:45",
+                        "description": "El nuevo m\u00f3dulo dataclassess de Python 3.7 nos ofrece la oportunidad de crear clases portadoras de datos de una forma sucinta y c\u00f3moda. Adem\u00e1s de ahorrarnos escribir un mont\u00f3n de c\u00f3digo, proporcionan una gran flexiblidad a la hora de escoger qu\u00e9 c\u00f3digo queremos que se genere por nosotros. En esta charla se presenta una introducci\u00f3n a esta funcionalidad, con ejemplos, y se presentan algunas alternativas disponibles en versiones anteriores.",
+                        "tags": [
+                            "core"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "Introducci\u00f3n a Dash: construcci\u00f3n de aplicaciones de visualizaci\u00f3n de datos personalizadas",
+                        "start": "17:10",
+                        "end": "18:00",
+                        "description": "Dash es una librer\u00eda de c\u00f3digo abierto, desarrollada por Plot.ly y escrita en Python. Te permite la creaci\u00f3n de interfaces para la visualizaci\u00f3n de datos en la web. Durante la charla veremos qu\u00e9 es Dash, para qu\u00e9 sirve, c\u00f3mo usarla y curiosidades sobre esta librer\u00eda.",
+                        "tags": [
+                            "web"
+                        ],
+                        "language": "ES"
+                    }
+                ]
+            },
+            {
+                "track_id": 3,
+                "order": 100,
+                "name": "Dagobah",
+                "talks": [
+                    {
+                        "name": "Bioinform\u00e1tica con Python",
+                        "start": "11:00",
+                        "end": "11:50",
+                        "description": "\"Se tratar\u00e1 el desarrollo de un cuaderno de Jupyter en el que se analizan las cadenas de ADN secuenciadas por el secuenciador de ADN MinION creado por Oxford Nanopore Technologies en busca de \"\"errores\"\" de secuenciaci\u00f3n. \r\nEn el cuaderno se aplican distintos filtros para extraer los \"\"errores\"\" de secuenciaci\u00f3n para luego comparar los resultados de los distintos filtros. Para terminar se utiliza una base de datos gen\u00f3mica para contrastar los resultados.\"",
+                        "tags": [
+                            "science"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "An\u00e1lisis de genomas de bacterias en el medioambiente",
+                        "start": "12:15",
+                        "end": "13:05",
+                        "description": "Las bacterias del medio marino tienen un papel fundamental en la biosfera. Son imprescindibles como motor en el funcionamiento de los ciclos de los elementos. Sin embargo, poco se conoce sobre los mecanismos de adaptaci\u00f3n de estos seres vivos. Para conocer aspectos sobre el bacterioplancton, se recurre a m\u00e9todos de Bioinform\u00e1tica en el an\u00e1lisis de las secuencias de \u00e1cidos nucleicos. El lenguaje de programaci\u00f3n Python ha sido imprescindible para nuestros estudios de an\u00e1lisis de datos, principalmente, en forma de secuencias de prote\u00ednas. En este trabajo se discute la aplicaci\u00f3n de estos m\u00e9todos en la identificaci\u00f3n de genes de transformaci\u00f3n de compuestos org\u00e1nicos de azufre, los cuales tiene importantes implicaciones ambientales.",
+                        "tags": [
+                            "science"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "TDD Listen to the tests",
+                        "start": "13:10",
+                        "end": "14:00",
+                        "description": "Hacer TDD puede hacer tu software mantenible o todo lo contrario si no tienes cuidado. Escuchar a los tests es parte esencial del ciclo. En esta charla veremos algunas t\u00e9cnicas para hacer que TDD no sea un \"pain in the ass\"",
+                        "tags": [
+                            "testing"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "Octoprint, control total para impresi\u00f3n 3D",
+                        "start": "15:00",
+                        "end": "15:50",
+                        "description": "Introducci\u00f3n a Octoprint, herramienta de control para impresoras 3d FDM",
+                        "tags": [
+                            "devops-tools"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "Python Become Human",
+                        "start": "15:55",
+                        "end": "16:45",
+                        "description": "Se presentar\u00e1 la api de Appium para python y un caso de uso en un dispositivo Android f\u00edsico con una aplicaci\u00f3n real en producci\u00f3n. Appium es un software de automatizaci\u00f3n para poder realizar tests de aplicaciones en diversas plataformas, entre ellas Android e IOS.",
+                        "tags": [
+                            "testing"
+                        ],
+                        "language": "ES"
+                    },
+                    {
+                        "name": "MQTT, comunica tus dispositivos con el mundo",
+                        "start": "17:10",
+                        "end": "18:00",
+                        "description": "\"Sensor de temperatura funcionando, y ahora... \u00bfC\u00f3mo hago para tener una web para ver los datos? \u00bfC\u00f3mo conecto esto a Internet? \u00a1Quiero que me llegue los datos al m\u00f3vil! Y...\r\n\r\nEn est\u00e1 charla hablaremos de la importancia de como comunicar los datos entre  nuestros dispositivos e Internet, para ello utilizamos MQTT (Message Queue Telemetry Transport).\r\nEste protocolo est\u00e1 orientado a la comunicaci\u00f3n machine-to-machine (M2M) , debido a que consume muy poco ancho de banda y puede ser utilizado en la mayor\u00eda de los dispositivos empotrados con pocos recursos (CPU, RAM, \u2026)\r\n\r\n\u00a1Hi, Real-Time Interaction Between Devices!\"",
+                        "tags": [
+                            "devops-tools"
+                        ],
+                        "language": "ES"
+                    }
+                ]
+            }
+        ]
+    }
